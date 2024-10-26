@@ -10,4 +10,10 @@ public class MidasCoreApplication {
         SpringApplication.run(MidasCoreApplication.class, args);
     }
 
+    public class TransactionListener{
+    @Kafkalistener (topics = "${kafka.topic.name}")
+    public void listen(Transaction transaction)
+
+    }
+
 }
