@@ -17,6 +17,34 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+	<dependency>
+		<groupId> org.springframework.boot </groupId>
+		<artifactId> Spring-boot-starter-data-jpa </artifactId>
+	</dependency>
+	<dependency>
+		<groupId> org.springframework.boot </groupId>
+		<artifactId> Spring-boot-starter-web </artifactId>
+	</dependency>
+	<dependency>
+		<groupId> org.springframework.kafka </groupId>
+		<artifactId> Spring-kafka  </artifactId>
+	</dependency>
+	<dependency>
+		<groupId> com.h2database </groupId>
+		<artifactId> H2  </artifactId>
+	</dependency>
+	<dependency>
+		<groupId> org.springframework.boot </groupId>
+		<artifactId> Spring-boot-starter-test  </artifactId>
+	</dependency>
+	<dependency>
+		<groupId> org.springframework.kafka  </groupId>
+		<artifactId> Spring-kafka-test   </artifactId>
+	</dependency>
+	<dependency>
+		<groupId> org.testcontainers  </groupId>
+		<artifactId> Kafka  </artifactId>
+	</dependency>
 	</dependencies>
 
 	<build>
